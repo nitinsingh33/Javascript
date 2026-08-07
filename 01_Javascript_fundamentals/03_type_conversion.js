@@ -222,3 +222,30 @@ Boolean("");          // false
 
 // parseInt() extracts numbers
 // Number() converts the whole value
+
+
+
+// * Interview Cheat Sheet (Revise in 30 seconds)
+
+// ==  -> Type Conversion
+// === -> No Type Conversion
+
+// Falsy:
+// false, 0, -0, 0n, "", null, undefined, NaN
+
+// Truthy:
+// [], {}, "0", "false"
+
+// Number("123") -> 123
+// Number("abc") -> NaN
+
+// Boolean([]) -> true
+// Boolean({}) -> true
+
+// typeof null -> object
+// typeof NaN -> number
+
+// parseInt("123px") -> 123
+// Number("123px") -> NaN
+
+// Prefer === over ==
